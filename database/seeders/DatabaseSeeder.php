@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
             'name' => str::random(10),
             'email' => Str::random(10) . '@gmail.com',
             'password' => Str::random(15),
-            'is_admin'=>1   
+            'is_admin'=>1
         ]);
     }
 }
